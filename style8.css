@@ -1,0 +1,33 @@
+.text-box h3:first-child {
+    color: pink;
+}
+.text-box p:first-child {
+    color: rgb(255, 0, 43);
+}
+div p:nth-child(7) {
+    color: green;
+}
+#greycol {
+color: gray;
+}
+.yellow {
+color: yellow;
+}
+.schedule {
+ color: rgb(5, 8, 238);
+}
+th {
+border: inherit;
+}
+.lesson:nth-child(2n) {
+    color: blueviolet;
+}
+.lesson:nth-child(2n+1) {
+    color: brown;
+}
+.text:hover {
+    background-color: blueviolet;
+}
+.subtite:active {
+    color: brown;
+}
